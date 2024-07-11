@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Pollution Awareness</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <h1>Water Pollution Awareness</h1>
+        <nav>
+            <ul>
+                <li><a href="#types">Types</a></li>
+                <li><a href="#causes">Causes</a></li>
+                <li><a href="#effects">Effects</a></li>
+                <li><a href="#precautions">Precautions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="types">
+            <h2>Types of Water Pollution</h2>
+            <button onclick="showDialog('types')">Learn More</button>
+            <div id="types-content" class="content">
+                <ul>
+                    <li><strong>Chemical Pollution:</strong> Contamination by harmful chemicals from industrial waste, pesticides, and pharmaceuticals.</li>
+                    <li><strong>Biological Pollution:</strong> Presence of harmful microorganisms like bacteria, viruses, and parasites in water.</li>
+                    <li><strong>Physical Pollution:</strong> Pollution caused by physical substances like plastic debris and sediments.</li>
+                    <li><strong>Nutrient Pollution:</strong> Excessive nutrients like nitrogen and phosphorus leading to eutrophication.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="causes">
+            <h2>Causes of Water Pollution</h2>
+            <button onclick="showDialog('causes')">Learn More</button>
+            <div id="causes-content" class="content">
+                <ul>
+                    <li>Industrial Discharge: Factories releasing waste into water bodies.</li>
+                    <li>Agricultural Runoff: Fertilizers and pesticides entering water sources.</li>
+                    <li>Wastewater: Improperly treated sewage and wastewater.</li>
+                    <li>Oil Spills: Accidental release of oil into oceans or rivers.</li>
+                    <li>Plastic Pollution: Improper disposal of plastic waste.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="effects">
+            <h2>Effects of Water Pollution</h2>
+            <button onclick="showDialog('effects')">Learn More</button>
+            <div id="effects-content" class="content">
+                <ul>
+                    <li>Health Risks: Contaminated water can cause diseases like cholera, hepatitis, and dysentery.</li>
+                    <li>Environmental Damage: Harm to aquatic ecosystems, including loss of biodiversity.</li>
+                    <li>Economic Impact: Costs associated with cleaning polluted water and health care.</li>
+                    <li>Impact on Wildlife: Harmful effects on fish, birds, and other wildlife dependent on water bodies.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="precautions">
+            <h2>Precautions</h2>
+            <button onclick="showDialog('precautions')">Learn More</button>
+            <div id="precautions-content" class="content">
+                <ul>
+                    <li>Proper Waste Disposal: Follow guidelines for disposing of waste and recycling materials.</li>
+                    <li>Reduce Chemical Use: Use eco-friendly products and reduce the use of harmful chemicals.</li>
+                    <li>Support Clean Water Initiatives: Engage in and support community clean water projects.</li>
+                    <li>Educate Others: Raise awareness about water pollution and encourage others to take action.</li>
+                    <li>Conserve Water: Use water efficiently and reduce unnecessary water consumption.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Water Pollution Awareness. All rights reserved.</p>
+    </footer>
+
+    <!-- Dialog Box -->
+    <div id="dialog" class="dialog">
+        <div class="dialog-content">
+            <span class="close-btn" onclick="closeDialog()">&times;</span>
+            <h3 id="dialog-title">Title</h3>
+            <p id="dialog-text">Content goes here.</p>
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>
